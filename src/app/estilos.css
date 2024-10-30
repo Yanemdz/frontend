@@ -1,0 +1,107 @@
+/* Fuente y tamaño de fuente global */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* Contenedor general */
+.container {
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(255, 0, 0, 0.5);
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Estilo de Título */
+.titulo {
+    font-size: 2em;
+    color: #ff3d3d; /* Rojo intenso */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Estilo de Descripción */
+.descripcion {
+    font-size: 1.1em;
+    color: #f1f1f1;
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+
+/* Tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333333;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Encabezado de Tabla */
+.table .table-header {
+    background-color: #a31212;
+    color: #ffffff; /* Color blanco para el texto */
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #222;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Celdas de datos de Tabla */
+.table .table-data {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: center;
+    color: #ffffff; /* Color blanco para el texto */
+    font-weight: lighter;
+}
+
+.table-data:nth-child(even) {
+    background-color: #292929;
+}
+.table-data:nth-child(odd) {
+    background-color: #333333;
+}
+
+/* Estilo de enlaces */
+.link {
+    color: #ff3d3d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ff7979;
+    text-decoration: underline;
+}
+
+/* Botón rojo personalizado */
+.btn-red {
+    height: 60px;
+    background-color: #ff3d3d; /* Rojo intenso */
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-red:hover {
+    background-color: #ff7979; /* Rojo más claro al pasar el mouse */
+}
