@@ -5,6 +5,13 @@ import '../../estilos.css';
 import BorrarUsuario from "@/components/borrar";
 import EditarUsuario from "@/components/editar";
 
+async function getSessionUsuario() {
+    console.log("Estas en getSessionUsuario");
+    const url = "http://localhost:3000/getSessionUsuario";
+    const sesionValida = await axios.get(url);
+    console.log(sesionValida.data);
+}
+
 async function getUsuarios() {
     const url = "http://localhost:3000";
     const usuarios = await axios.get(url);
@@ -12,6 +19,7 @@ async function getUsuarios() {
 }
 
 export default async function Usuarios() {
+    getSessionUsuario();
     const usuarios = await getUsuarios();
 
     return (

@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: #000000;
+    background-color:white;
 }
 
 /* Contenedor general */
 .container {
     padding: 20px;
-    background-color: #1c1c1c;
+    background-color: #f0abdf;
     border-radius: 8px;
-    box-shadow: 0 20px 60px rgba(255, 0, 0, 0.5);
+    box-shadow: 0 20px 60px rgba(0, 225, 255, 0.5);
     margin-top: 100px;
     max-width: 80%;
     margin-left: auto;
@@ -24,7 +24,7 @@ body {
 /* Estilo de Título */
 .titulo {
     font-size: 2em;
-    color: #ff3d3d; /* Rojo intenso */
+    color: black; 
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -33,7 +33,7 @@ body {
 /* Estilo de Descripción */
 .descripcion {
     font-size: 1.1em;
-    color: #f1f1f1;
+    color: black;
     margin-bottom: 25px;
     font-weight: lighter;
 }
@@ -45,12 +45,12 @@ body {
     background-color: #333333;
     margin-bottom: 20px;
     border-radius: 8px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 /* Encabezado de Tabla */
 .table .table-header {
-    background-color: #a31212;
+    background-color: #127aa3;
     color: #ffffff; /* Color blanco para el texto */
     padding: 10px;
     text-align: center;
@@ -78,21 +78,21 @@ body {
 
 /* Estilo de enlaces */
 .link {
-    color: #ff3d3d;
+    color: #127aa3;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .link:hover {
-    color: #ff7979;
+    color: #127aa3;
     text-decoration: underline;
 }
 
 /* Botón rojo personalizado */
 .btn-red {
     height: 60px;
-    background-color: #ff3d3d; /* Rojo intenso */
+    background-color: #127aa3; 
     color: #ffffff;
     border: none;
     font-weight: bold;
@@ -103,5 +103,5 @@ body {
 }
 
 .btn-red:hover {
-    background-color: #ff7979; /* Rojo más claro al pasar el mouse */
+    background-color: #127aa3; /* Rojo más claro al pasar el mouse */
 }
